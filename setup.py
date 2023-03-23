@@ -10,7 +10,6 @@ def get_requirements(file_path):
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
 
-
 setup(
     name = "Mlproject",
     version = "0.0.1",
@@ -18,5 +17,4 @@ setup(
     author_email="yantraveda11@gmail.com",
     packages=find_packages(),
     install_requires = get_requirements('requirements.txt')
-
-)
+    )
